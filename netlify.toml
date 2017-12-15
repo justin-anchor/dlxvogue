@@ -1,0 +1,28 @@
+# Global settings applied to the whole site.
+[build]
+  publish = "build"
+  command = "yarn run netlify"
+
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+[context.production.environment]
+  GOOGLE_ANALYTICS_ID = "UA-60712636-2"
+  API_ENDPOINT = "https://api.dirtylemon.com/v1"
+  API_TOKEN = "XafH5p8h8huA4CfjXiHSLz1g"
+  STRIPE_KEY = "pk_live_9sVlihhxqY5qSgq3oBcTRUeb"
+
+# Deploy Preview context: All Deploy Previews
+# will inherit these settings.
+[context.deploy-preview.environment]
+  GOOGLE_ANALYTICS_ID = "UA-60712636-2"
+  API_ENDPOINT = "https://staging-api.dirtylemon.com/v1"
+  API_TOKEN = "8afNT7Hpdgf9CGjQ23iXq7w4"
+  STRIPE_KEY = "pk_test_6SblZKITWpp41jZJRbwmMuY7"
+
+# Branch Deploy context: All deploys that are not in
+# an active Deploy Preview will inherit these settings.
+[context.branch-deploy.environment]
+  GOOGLE_ANALYTICS_ID = "UA-60712636-2"
+  API_ENDPOINT = "https://staging-api.dirtylemon.com/v1"
+  API_TOKEN = "8afNT7Hpdgf9CGjQ23iXq7w4"
+  STRIPE_KEY = "pk_test_6SblZKITWpp41jZJRbwmMuY7"

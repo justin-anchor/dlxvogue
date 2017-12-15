@@ -1,0 +1,26 @@
+/                    /index.html  200
+/hi                  /index.html  200
+/buy                 /index.html  303
+/payments            /index.html  200
+/ordering            /index.html  200
+/shipping            /index.html  200
+/contact             /index.html  200
+/buy                 /            301
+/917-588-0640        /contact     301
+/tel//877-897-7784   /contact     301
+
+/detox               /charcoal    301
+/energy              /ginseng     301
+/skin-hair           /collagen    301
+/skin_hair           /collagen    301
+
+/charcoal            /index.html  200
+/collagen            /index.html  200
+/ginseng             /index.html  200
+/sleep               /index.html  200
+/vogue				 /vogue/index.html  200
+/images				 /vogue/images	200
+/images/DL_splash_bottle.png             /vogue/images/DL_splash_bottle.png  200
+/images/VOGUE_LOGO.svg             /vogue/images/VOGUE_LOGO.svg  200
+/images/DL_splash_background.jpg             /vogue/images/DL_splash_background.jpg  200
+/images/dl-logo.svg             /vogue/images/dl-logo.svg  200
